@@ -1,0 +1,12 @@
+.results-container { background-color: #2c2c34; border-radius: 8px; padding: 24px; max-width: 700px; margin: 2rem auto; border: 1px solid #444; color: #e0e0e0; }
+.results-container h2, .results-container h3 { color: #ffffff; border-bottom: 1px solid #444; padding-bottom: 10px; margin-bottom: 20px; }
+.result-banner { padding: 10px; border-radius: 6px; text-align: center; font-size: 1.5rem; font-weight: bold; margin-bottom: 24px; }
+.result-banner.fake { background-color: #e91e63; color: white; }
+.result-banner.real { background-color: #00bfa5; color: white; }
+.results-summary { display: flex; gap: 30px; margin-bottom: 30px; }
+.confidence-chart-container, .analysis-details { flex: 1; }
+.doughnut-wrapper { position: relative; width: 200px; height: 100px; margin: 0 auto; }
+.confidence-text { position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; font-size: 2.5rem; font-weight: bold; }
+.confidence-text span { display: block; font-size: 0.8rem; font-weight: normal; color: #a0a0b0; }
+.analysis-details ul { list-style-type: none; padding: 0; }
+.analysis-details li { background-color: #1e1e24; padding: 12px; border-radius: 4px; margin-bottom: 8px; }
